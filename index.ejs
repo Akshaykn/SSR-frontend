@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/css/main.css" />
+    <script type="module" src="/js/services/LoginService.js"> </script>
+    <script>
+      function onSubmitUser(event) {
+        const userName = event.target["userName"].value || '';
+        const password = event.target["password"].value || '';
+        if (userName !== '' && password !== '') {
+          window.location.href = `home`;
+        }
+        event.preventDefault();
+      }
+      var name = '<%-name%>';
+    </script>
+</head>
+<body>
+  <form class="main" onsubmit="onSubmitUser(event)">
+    <h1 class="header"><%=name%> Login</h1>
+    <div class="inputRow">
+      <label class="inputLabel" for="userName">User Name:</label>
+      <div class="inputField">
+        <input id="userName"/>
+      </div> 
+    </div>
+    <div class="inputRow">
+      <label class="inputLabel" 
+        for="password">User Password:</label>
+      <div class="inputField">
+        <input id="password" type="password"/>
+      </div> 
+    </div>
+    <button class="btnClass" type="submit">Submit</button>
+  </form> 
+</body>
+</html>

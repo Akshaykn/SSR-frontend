@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "it is a node SSR application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshaykn/SSR-frontend.git"
+  },
+  "keywords": [
+    "SSR",
+    "javascript"
+  ],
+  "engines": {
+    "node": "12.22.10"
+  },
+  "author": "Akshay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akshaykn/SSR-frontend/issues"
+  },
+  "homepage": "https://github.com/Akshaykn/SSR-frontend#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}

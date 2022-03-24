@@ -1,0 +1,55 @@
+* {
+   font-family: monospace;  
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 35%;
+  height: 35%;
+  padding: 30px;
+  border: 1px solid #ebdfdf40;
+  box-shadow: 1px 1px 10px 1px #ffffff5c;
+  justify-content: center;
+}
+
+.header {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #053e6ae0;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.inputRow {
+  margin: 10px 0px;  
+}
+
+.inputLabel {
+   color: #fff; 
+}
+
+.inputField {
+  margin-top: 10px;
+}
+
+.btnClass{
+    background: #fff;
+    padding: 7px 14px;
+    border-radius: 7px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
