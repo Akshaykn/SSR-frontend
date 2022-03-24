@@ -3,17 +3,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="/css/main.css" />
-    <script>
-      function onSubmitUser(event) {
-        const userName = event.target["userName"].value || '';
-        const password = event.target["password"].value || '';
-        if (userName !== '' && password !== '') {
-          console.log('Logged In');
-        }
-        event.preventDefault();
-      }
-      var name = '<%-name%>';
-    </script>
 </head>
 <body>
   <div>  
